@@ -1,0 +1,53 @@
+.Laminat {
+  background-image: url(../src/assets/images/photo1.png);
+  padding: 162px;
+  // margin-top: 10px;
+
+  .laminat {
+    .word {
+      margin-left: -30px;
+      a {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        text-align: left;
+        color: #2c2d2e;
+        text-decoration: none;
+      }
+      h2 {
+        //styleName: H1;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        color: #2c2d2e;
+        margin-top: 16px;
+        margin-bottom: 17px;
+      }
+      p {
+        //styleName: fontBody;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 582px;
+        margin-bottom: 16px;
+      }
+      button {
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        width: 102px;
+        height: 40px;
+        border-radius: 4px;
+        border: none;
+        color: #fff;
+        background: #ef7c00;
+        cursor: pointer;
+      }
+    }
+  }
+}

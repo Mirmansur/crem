@@ -1,0 +1,31 @@
+.Diplom {
+  .diplom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    .start {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+      gap: 10px;
+      p {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+        color: #2c2d2e;
+      }
+      p.yellow {
+        color: #ef7c00;
+      }
+    }
+    .end {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+    }
+  }
+}
